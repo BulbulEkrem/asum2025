@@ -18,7 +18,7 @@ const diller = [
 
 // ✅ Dil yükleme fonksiyonu
 async function dilYukle(lang) {
-    const response = await fetch(`data/${lang}.json`);
+    const response = await fetch(`data/locales/${lang}.json`);
     const translations = await response.json();
 
     document.querySelectorAll("[data-i18n]").forEach(elem => {
@@ -43,7 +43,7 @@ function bayraklariYukle(varsayilanBayrak) {
                 <li>
                     <a href='#' data-lang='${x.kisatma}'>
                         <img style='width: 24px;' src='${x.bayrak}' alt='${x.dilAdi}'>
-                        <span class='hidden-lg' style='margin-left: 5px'>${x.dilAdi}</span>
+                        <span style='margin-left: 5px'>${x.dilAdi}</span>
                     </a>
                 </li>`;
         }

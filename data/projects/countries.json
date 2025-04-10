@@ -1,0 +1,22 @@
+{
+    "countries": [
+        {
+            "name": "United States",
+            "code": "us",
+            "top": 30,
+            "left": 30
+        },
+        {
+            "name": "Turkiye",
+            "code": "tr",
+            "top": 40,
+            "left": 40
+        },
+        {
+            "name": "Greece",
+            "code": "gr",
+            "top": 50,
+            "left": 50
+        }
+    ]
+}
