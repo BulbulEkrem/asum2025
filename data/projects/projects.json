@@ -1,0 +1,58 @@
+{
+    "ulkeler": [
+        {
+            "name": "United States",
+            "code": "us",
+            "projects":[
+                {
+                    "projectCode": "us_1",
+                    "name": "Project 1",
+                    "endUser": "Description of Project 1",
+                    "city": "city",
+                    "year": "2023",
+                    "Scope": ["Description of Project 1","Description of Project 2"],
+                    "photNames": ["usa-1.jpg","us_1_2.jpg","us_1_3.jpg"]
+                },
+                {
+                    "projectCode": "us_2",
+                    "name": "Project 2",
+                    "endUser": "Description of Project 1",
+                    "city": "city2",
+                    "year": "2023",
+                    "Scope": ["Description of Project 3","Description of Project 4","Description of Project 5"],
+                    "photNames": ["us_1_1.jpg","us_1_2.jpg","us_1_3.jpg"]
+                }
+            ]
+        },
+        {
+            "name": "Turkiye",
+            "code": "tr",
+            "projects":[
+                {
+                    "projectCode": "us_1",
+                    "name": "Project 1",
+                    "endUser": "Description of Project 1",
+                    "city": "city",
+                    "year": "2023",
+                    "Scope": ["Description of Project 1","Description of Project 2"],
+                    "photNames": ["usa-1.jpg","us_1_2.jpg","us_1_3.jpg"]
+                },
+                {
+                    "projectCode": "us_2",
+                    "name": "Project 2",
+                    "endUser": "Description of Project 1",
+                    "city": "city2",
+                    "year": "2023",
+                    "Scope": ["Description of Project 3","Description of Project 4","Description of Project 5"],
+                    "photNames": ["us_1_1.jpg","us_1_2.jpg","us_1_3.jpg"]
+                }
+            ]
+        },
+        {
+            "name": "Greece",
+            "code": "gr",
+            "top": 50,
+            "left": 50
+        }
+    ]
+}
