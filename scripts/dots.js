@@ -1,7 +1,7 @@
 async function ulkeYukle() {
-    const response = await fetch(`data/projects/countries.json`);
+    const response = await fetch(`data/projects/projects.json`);
     const data = await response.json();
-    const ulkeler = data.countries;
+    const ulkeler = data.ulkeler;
     let ulkeListesi = "";
     ulkeler.forEach(ulke => {
         ulkeListesi += `
@@ -12,6 +12,30 @@ async function ulkeYukle() {
 
 
 }
+async function ulkeListeYukle() {
+
+
+    const alan = document.getElementById('ulkeListesi');
+    if(alan){
+        const response = await fetch(`data/projects/projects.json`);
+        const data = await response.json();
+        const ulkeler = data.ulkeler;
+        let ulkeListesi = "";
+        ulkeler.forEach(ulke => {
+            ulkeListesi += `
+            <li>
+                <a href="pages/references.html#" title="" data-toggle="modal" data-target="#referenceModal_${ulke.code}">${ulke.name}</a>
+            </li>`;
+        });
+        alan.innerHTML = ulkeListesi;
+
+    }
+
+
+}
+
+
+
 
 
 async function modalYukle() {
@@ -34,7 +58,6 @@ async function modalYukle() {
                                                     <h4 class="modal-title">References in ${projeler.name}</h4>
                                                 </div>
                                                 <div class="modal-body">`;
-        console.log(projeler);
         if (projeler.projects != undefined && projeler.projects.length > 0) {
 
             projeler.projects.forEach(ulkeProjesi => {
@@ -95,5 +118,6 @@ async function modalYukle() {
 
 window.addEventListener('DOMContentLoaded', () => {
     ulkeYukle();
-    modalYukle()
+    modalYukle();
+    ulkeListeYukle()
 });

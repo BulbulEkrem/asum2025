@@ -3,6 +3,8 @@
         {
             "name": "United States",
             "code": "us",
+            "top": 30,
+            "left": 30,
             "projects":[
                 {
                     "projectCode": "us_1",
@@ -27,6 +29,8 @@
         {
             "name": "Turkiye",
             "code": "tr",
+            "top": 40,
+            "left": 40,
             "projects":[
                 {
                     "projectCode": "us_1",
