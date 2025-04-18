@@ -2,4 +2,6 @@
 
 2.ana sayfa defaul bizi kimiz altındaki açıklama "şlskdfgvşlskşlfksdşlfkş" olmaslı
 
-ekrem burda
+dotjsde if kontrolü getir
+
+mobil görünümde menü çıkmıyor
