@@ -24,13 +24,12 @@ async function dilYukle(lang) {
     document.querySelectorAll("[data-i18n]").forEach(elem => {
         const key = elem.getAttribute("data-i18n");
         if (translations[key]) {
-            elem.innerText = translations[key];
+            elem.innerHTML = translations[key];
         }
     });
 
     localStorage.setItem('selectedLanguage', lang);
 
-    // 👉 Bayrakları da tekrar yükle
     await dilSecimAlaniniOlustur(lang);
 }
 
