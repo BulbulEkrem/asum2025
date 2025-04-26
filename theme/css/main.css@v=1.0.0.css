@@ -11,6 +11,15 @@
 .hermes.tp-bullets {
 }
 
+.fs18{
+	font-size: 18px;
+}
+
+
+.fs30{
+	font-size: 30px;
+}
+
 .hermes .tp-bullet {
     overflow: hidden;
     border-radius: 50%;
