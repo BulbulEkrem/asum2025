@@ -11,6 +11,20 @@
 .hermes.tp-bullets {
 }
 
+.sliderButton {
+	z-index: 8;
+	background: linear-gradient(135deg, #f59f24 0%, rgb(243, 147, 0) 100%) rgb(252, 202, 3);
+	min-width: 170px;
+	max-width: 170px;
+	white-space: nowrap;
+	outline:none;
+	box-shadow:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	cursor:pointer;
+	color: #000;
+}
 .fs18{
 	font-size: 18px;
 }
