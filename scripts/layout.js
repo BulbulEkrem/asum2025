@@ -92,3 +92,9 @@ fetch('includes/solutionsLinks.html')
     });
 });
 }
+
+document.querySelectorAll('.no-action').forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+});

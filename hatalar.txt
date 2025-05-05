@@ -1,23 +1,6 @@
-
-2.ana sayfa defaul bizi kimiz altındaki açıklama "şlskdfgvşlskşlfksdşlfkş" olmaslı
-
-dotjsde if kontrolü getir
-
-Yukarıdaki menüde ABOUT US, SECTORS, PRODUCTS, sayfaları açılmıyor
-
-PRODUCTS ın altında açılan menüde MV SYSTEM, LV SYSTEM, SOLAR SYSTEM, CABLES, CABINS, GENERATORS, CHARGING STATIONS sayfaları açılmıyor.
-
-Ana sayfada BROWSE OUR PRODUCTS ın yanındaki ALL PRODUCTS sayfası açılmıyor
-
-Sectorsun altındakiler açılmıyor
-
-SOLUTIONS AND PRODUCTS ın altındakiler açılmıyor
-
-Ana sayfada referans kısmında See All References sayfası açılmıyor
+Yukarıdaki menüde ABOUT US
 
 Footerda products ın altındakiler açılmıyor
-
-Sliderdaki butonun üstündeki yazı beyaz olması gerekiyor
 
 Referanslar kısmında noktaları daha rahat tıklayabilmek adına büyütmek gerekiyor
 
