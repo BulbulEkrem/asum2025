@@ -1,9 +1,5 @@
 Yukarıdaki menüde ABOUT US
 
-Footerda products ın altındakiler açılmıyor
+Footer arka planı bulamadım - C:\Users\bulbu\OneDrive\Masaüstü\necip2025\tecglobal.com.tr\theme\images\parallax\pattern.png
 
-Referanslar kısmında noktaları daha rahat tıklayabilmek adına büyütmek gerekiyor
-
-Footer arka planı bulamadım
-
-Products sayfasında bir karışıklık var başlıklar ve görseller bir birini tutmuyor
+Products sayfasında bir karışıklık var başlıklar ve görseller bir birini tutmuyor- hangisi hangisinde olmalı

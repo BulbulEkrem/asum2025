@@ -12700,8 +12700,8 @@ ul.global-presense-list {
 }
 
 .dot {
-	width: 5px;
-	height: 5px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	-webkit-animation: pulse-custom 1.5s infinite ease-out;
 	animation: pulse-custom 1.5s infinite ease-out;
